@@ -1,9 +1,14 @@
+import React from 'react';
 import './App.css';
 import Header from './components/header';
+import Countries from './components/countreislist';
 
 function App() {
   return (
-    <Header />
+    <div>
+      <Header />
+      <Countries />
+    </div>
   );
 }
 
