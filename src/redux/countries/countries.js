@@ -1,14 +1,6 @@
-const GET_COUNTRY = 'WeatherApp/countries/GET_COUNTRY';
+import initState from './countriesList';
 
-const initState = {
-  countries: [
-    {
-      name: 'Syria',
-      icon: 'icons/syria.png',
-      continent: 'Asia',
-    },
-  ],
-};
+const GET_COUNTRY = 'WeatherApp/countries/GET_COUNTRY';
 
 const CountriesReducer = (state = initState, { type }) => {
   switch (type) {

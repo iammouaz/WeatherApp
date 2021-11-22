@@ -5,12 +5,12 @@ import Country from './singleCountry';
 const Countries = () => {
   const CountriesState = useSelector((state) => state.allContries.countries);
   return (
-    <div>
+    <div className="flex cards">
       {CountriesState.map((country) => (
         <Country
           name={country.name}
           key={country.name}
-          img={country.img}
+          img={country.icon}
           continent={country.continent}
         />
       ))}

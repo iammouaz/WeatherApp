@@ -1,15 +1,16 @@
-/* eslint-disable no-underscore-dangle */
-import { createStore, combineReducers } from 'redux';
-import CountriesReducer from './countries';
+import { createStore, combineReducers, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
+import CountriesReducer from './countries/countries';
+import APIReducder from './api/countriesData';
 
 const reducer = combineReducers({
   allContries: CountriesReducer,
+  APIDATA: APIReducder,
 });
 
-/* eslint-disable no-underscore-dangle */
 const store = createStore(
   reducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
+  applyMiddleware(thunk),
 );
-/* eslint-enable */
+
 export default store;

@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
@@ -12,7 +11,7 @@ const Country = (props) => {
   } = props;
 
   return (
-    <Card key={name} sx={{ minWidth: 275 }}>
+    <Card variant="outlined" key={name} sx={{ minWidth: 275 }} className="scard flex">
       <CardContent>
         <Typography variant="h5" component="div">
           {name}
@@ -21,10 +20,8 @@ const Country = (props) => {
           {continent}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">See Weather</Button>
-      </CardActions>
-      <img src={img} alt="Country Icon" />
+      <img className="icons" src={img} alt="Country Icon" />
+      <Button variant="contained">See Weather</Button>
     </Card>
   );
 };
