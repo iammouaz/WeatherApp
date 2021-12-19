@@ -8,11 +8,6 @@
 you can check out website [here](https://61bf43dcf99fa8000810d5ef--amazing-villani-accc74.netlify.app/
 
 
-## Preview
-
-![image](preview.png)
-
-
 ## Built With
 
 - React
