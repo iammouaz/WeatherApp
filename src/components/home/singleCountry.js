@@ -6,12 +6,15 @@ import Typography from '@mui/material/Typography';
 import PropTypes from 'prop-types';
 
 const Country = (props) => {
-  const {
-    name, img, continent,
-  } = props;
+  const { name, img, continent } = props;
 
   return (
-    <Card variant="outlined" key={name} sx={{ minWidth: 275 }} className="scard flex">
+    <Card
+      variant="outlined"
+      key={name}
+      sx={{ minWidth: 275 }}
+      className="scard flex"
+    >
       <CardContent>
         <Typography variant="h5" component="div">
           {name}
@@ -21,7 +24,7 @@ const Country = (props) => {
         </Typography>
       </CardContent>
       <img className="icons" src={img} alt="Country Icon" />
-      <Button variant="contained">See Weather</Button>
+      <Button href={`/${name}`} variant="contained">See Weather</Button>
     </Card>
   );
 };

@@ -1,6 +1,7 @@
-body{
+body {
   background: #bbdefb;
 }
+
 .flex {
   display: flex;
 }

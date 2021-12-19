@@ -11,8 +11,8 @@ const initState = {
       continent: 'Asia',
     },
     {
-      name: 'Philippines',
-      icon: 'icons/philippines.png',
+      name: 'Taiwan',
+      icon: 'icons/taiwan.png',
       continent: 'Asia',
     },
     {
@@ -21,8 +21,8 @@ const initState = {
       continent: 'Asia',
     },
     {
-      name: 'Jordan',
-      icon: 'icons/jordan.png',
+      name: 'Thailand',
+      icon: 'icons/thailand.png',
       continent: 'Asia',
     },
     {
