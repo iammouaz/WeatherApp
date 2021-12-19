@@ -1,8 +1,8 @@
-# Cryptos Statistics
+# Weather App
 
 ![](https://img.shields.io/badge/Microverse-blueviolet) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Flfmnovaes%2Ftodo-list&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-
-> Web application to show data and prices for top Crypto Currencies.
+(
+> Web application to show Weather for Some Countries (For Now 😉) All will be Available Soon.
 
 # Live Demo
 you can check out website [here](https://elastic-mestorf-f7a890.netlify.app/)
@@ -31,7 +31,7 @@ Before we start, make sure you fit the prerequisites, the source code is inside 
 - React-based on components
 
 ### Setup
-- git clone https://github.com/iammouaz/cryptos-statistics.git
+- https://github.com/iammouaz/WeatherApp.git
 
 ### Install
 - `npm install`
@@ -70,7 +70,7 @@ To everyone in Microverse.
 
 ## Credits
 
-- [CoinGecko](https://www.coingecko.com/en/api/documentation) API
+- [Goweather](https://github.com/robertoduessmann/weather-api) API
 - [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the [design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) inspiration
 
 ## 📝 License
