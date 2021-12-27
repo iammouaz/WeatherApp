@@ -46,8 +46,83 @@ const initState = {
       continent: 'Asia',
     },
     {
-      name: 'Afghanistan',
-      icon: 'icons/afghanistan.png',
+      name: 'Russia',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/ru/128.png',
+      continent: 'Asia',
+    },
+    {
+      name: 'Qatar',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/ga/128.png',
+      continent: 'Asia',
+    },
+    {
+      name: 'Tajikistan',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/tj/128.png',
+      continent: 'Asia',
+    },
+    {
+      name: 'Turkey',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/tr/128.png',
+      continent: 'Asia',
+    },
+    {
+      name: 'Taiwan',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/tw/128.png',
+      continent: 'Asia',
+    },
+    {
+      name: 'Uzbekistan',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/uz/128.png',
+      continent: 'Asia',
+    },
+    {
+      name: 'Yemen',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/ye/128.png',
+      continent: 'Asia',
+    },
+    {
+      name: 'Belgium',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/be/128.png',
+      continent: 'Asia',
+    },
+    {
+      name: 'Switzerland',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/ch/128.png',
+      continent: 'Asia',
+    },
+    {
+      name: 'Czech Republic',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/cz/128.png',
+      continent: 'Asia',
+    },
+    {
+      name: 'Germany',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/de/128.png',
+      continent: 'Asia',
+    },
+    {
+      name: 'Denmark',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/dk/128.png',
+      continent: 'Asia',
+    },
+    {
+      name: 'Spain',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/es/128.png',
+      continent: 'Asia',
+    },
+    {
+      name: 'France',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/fr/128.png',
+      continent: 'Asia',
+    },
+    {
+      name: 'UK',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/gb/128.png',
+      continent: 'Asia',
+    },
+    {
+      name: 'Greece',
+      icon: 'https://raw.githubusercontent.com/djaiss/mapsicon/master/all/gr/128.png',
       continent: 'Asia',
     },
   ],

@@ -11,11 +11,12 @@ function HomeIcon() {
 }
 
 const Header = () => (
-  <AppBar>
+  <AppBar style={{ backgroundColor: 'rgba(181, 176, 176, 0.7)' }}>
     <div className="flex home">
       <h1>Home</h1>
       <HomeIcon />
     </div>
   </AppBar>
 );
+
 export default Header;
