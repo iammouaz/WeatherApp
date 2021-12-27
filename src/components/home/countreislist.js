@@ -4,7 +4,7 @@ import Country from './singleCountry';
 
 const Countries = () => {
   const CountriesState = useSelector((state) => state.allContries.countries);
-  return (
+  return ((
     <div className="flex cards">
       {CountriesState.map((country) => (
         <Country
@@ -16,7 +16,7 @@ const Countries = () => {
       ))}
     </div>
 
-  );
+  ));
 };
 
 export default Countries;
