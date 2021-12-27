@@ -1,5 +1,6 @@
-body {
-  background: #bbdefb;
+html, body {
+  margin:0px;
+  height:100%;
 }
 
 .flex {
@@ -10,6 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  background-color: rgba(181, 176, 176, 0.7);
 }
 
 .icons {
