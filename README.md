@@ -3,7 +3,7 @@
 > Web application to show Weather for Some Countries (For Now 😉) All will be Available Soon.
 
 # Live Demo
-you can check out website [here](https://61bf43dcf99fa8000810d5ef--amazing-villani-accc74.netlify.app/)
+you can check out website [here](https://boring-swirles-b652cc.netlify.app/)
 
 
 ## Built With
