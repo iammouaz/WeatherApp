@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
-import WeatherData from './WeatherDetails';
 import OutlinedCard from './card';
 
 const Weather = (props) => {
@@ -10,7 +9,7 @@ const Weather = (props) => {
   const [state, setState] = useState('');
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
-    axios.get(`http://api.weatherapi.com/v1/current.json?key=3acda049206e4486800163650212411&q=${data}&aqi=yes`)
+    axios.get(`https://api.weatherapi.com/v1/current.json?key=3acda049206e4486800163650212411&q=${data}&aqi=yes`)
       .then((res) => {
         const Data = res.data;
         setState({ Data });
